@@ -60,7 +60,7 @@ import HelloWorld from './components/HelloWorld.vue'
         </svg>
         <span class="text-lg text-blue-500 font-normal">
           <a href="javascript:void(0)">CodeCures</a>/
-          <a href="javascript:void(0)" class="font-bold">github-clone</a>
+          <a href="javascript:void(0)" class="font-bold">tailwindcss</a>
         </span>
         <span class="border border-gray-400 text-gray-500 rounded-full px-1 text-xs py-0 font-normal">Public</span>
       </h2>
