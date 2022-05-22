@@ -109,8 +109,86 @@ import HelloWorld from './components/HelloWorld.vue'
     </div> <!-- end repo stat -->
 
     <!-- repo nav -->
-    <ul class="repo-nav border-b border-gray-400 flex items-center px-8 mt-4">
+    <ul class="repo-nav border-b border-gray-400 flex items-center space-x-1 px-8 mt-4">
+      <li class="border-b border-b-orange-500">
+        <a href="javascript:void(0)" class="inline-block py-1">
+          <span class="flex items-center space-x-1 px-3 py-1 rounded hover:bg-gray-200 transition ease-in-out">
+            <svg class="w-[15.99px] fill-gray-500" aria-hidden="true" viewBox="0 0 16 16" data-view-component="true">
+                <path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path>
+            </svg>
+            <span>Code</span>
+          </span>
+        </a>
+      </li>
+
+      <li class="">
+        <a href="javascript:void(0)" class="inline-block py-1">
+          <span class="flex items-center space-x-1 px-3 py-1 rounded text-gray-600 font-normal hover:bg-gray-200 transition ease-in-out">
+            <svg class="w-[15.99px] fill-gray-500" aria-hidden="true" viewBox="0 0 16 16" data-view-component="true">
+                <path d="M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path><path fill-rule="evenodd" d="M8 0a8 8 0 100 16A8 8 0 008 0zM1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0z"></path>
+            </svg>
+            <span>Issues</span>
+            <span class="px-1 rounded-full bg-gray-200 font-xs">7</span>
+          </span>
+        </a>
+      </li>
+
+      <li class="">
+        <a href="javascript:void(0)" class="inline-block py-1">
+          <span class="flex items-center space-x-1 px-3 py-1 rounded text-gray-600 font-normal hover:bg-gray-200 transition ease-in-out">
+            <svg class="w-[15.99px] fill-gray-500" aria-hidden="true" viewBox="0 0 16 16" data-view-component="true">
+                <path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path>
+            </svg>
+            <span>Pull Request</span>
+            <span class="px-1 rounded-full bg-gray-200 font-xs">17</span>
+          </span>
+        </a>
+      </li>
+
+      <li class="">
+        <a href="javascript:void(0)" class="inline-block py-1">
+          <span class="flex items-center space-x-1 px-3 py-1 rounded text-gray-600 font-normal hover:bg-gray-200 transition ease-in-out">
+            <svg class="w-[15.99px] fill-gray-500" aria-hidden="true" viewBox="0 0 16 16" data-view-component="true">
+                <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path>
+            </svg>
+            <span>Discussions</span>
+          </span>
+        </a>
+      </li>
+
+      <li class="">
+        <a href="javascript:void(0)" class="inline-block py-1">
+          <span class="flex items-center space-x-1 px-3 py-1 rounded text-gray-600 font-normal hover:bg-gray-200 transition ease-in-out">
+            <svg class="w-[15.99px] fill-gray-500" aria-hidden="true" viewBox="0 0 16 16" data-view-component="true">
+                <path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path>
+            </svg>
+            <span>Actions</span>
+          </span>
+        </a>
+      </li>
       
+      <li class="">
+        <a href="javascript:void(0)" class="inline-block py-1">
+          <span class="flex items-center space-x-1 px-3 py-1 rounded text-gray-600 font-normal hover:bg-gray-200 transition ease-in-out">
+            <svg class="w-[15.99px] fill-gray-500" aria-hidden="true" viewBox="0 0 16 16" data-view-component="true">
+                <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path>
+            </svg>
+            <span>Security</span>
+          </span>
+        </a>
+      </li>
+
+      <li class="">
+        <a href="javascript:void(0)" class="inline-block py-1">
+          <span class="flex items-center space-x-1 px-3 py-1 rounded text-gray-600 font-normal hover:bg-gray-200 transition ease-in-out">
+            <svg class="w-[15.99px] fill-gray-500" aria-hidden="true" viewBox="0 0 16 16" data-view-component="true">
+                <path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path>
+            </svg>
+            <span>Insight</span>
+          </span>
+        </a>
+      </li>
+
     </ul>
   </header>
 </template>
