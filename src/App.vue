@@ -53,6 +53,7 @@ import HelloWorld from './components/HelloWorld.vue'
         </a>
       </div>
     </nav>
+    <!-- repo stat -->
     <div class="flex items-center justify-between px-8 py-3">
       <h2 class="flex items-center space-x-2">
         <svg class="w-[16px] fill-gray-500" aria-hidden="true"  viewBox="0 0 16 16" data-view-component="true">
@@ -105,7 +106,12 @@ import HelloWorld from './components/HelloWorld.vue'
           </a>
           </div>
       </div>
-    </div>
+    </div> <!-- end repo stat -->
+
+    <!-- repo nav -->
+    <ul class="repo-nav border-b border-gray-400 flex items-center px-8 mt-4">
+      
+    </ul>
   </header>
 </template>
 
