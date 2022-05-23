@@ -191,5 +191,17 @@ import HelloWorld from './components/HelloWorld.vue'
 
     </ul>
   </header>
+  <main>
+    <!-- explorer -->
+
+    <div class="w-[85%] mx-auto my-8 px-4 flex space-x-8">
+      <div class="file-explorer-container w-3/4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ad, architecto praesentium nostrum eligendi repellendus iure aut doloribus aliquid veritatis at blanditiis nesciunt ipsum commodi ipsam labore quis! Rerum, obcaecati?
+      </div>
+      <div class="sidebar w-1/4">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, autem praesentium? Magni quod ipsum sit neque eos accusantium commodi enim quae, tempore illum quisquam deleniti voluptas odit velit, necessitatibus sequi.
+      </div>
+    </div>
+  </main>
 </template>
 
